@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+# Portfólio React Native – Orlando Livio
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicativo de portfólio desenvolvido em **React Native + Expo**, com visual **dark neon futurista**, focado em apresentar minhas skills, projetos e contatos de forma profissional.
 
-## Get started
+## ✨ Features
 
-1. Install dependencies
+- Navegação em abas:
+  - **Início** – apresentação, objetivo e destaque em suporte técnico
+  - **Sobre** – mini bio, formação e botão para baixar currículo em PDF
+  - **Skills** – stack organizada em blocos, com pills neon
+  - **Projetos** – cards com links para projetos em produção (Lancha e Jet, KL Freedom)
+  - **Contato** – telefone, e-mail, LinkedIn e GitHub
 
-   ```bash
-   npm install
-   ```
+- Tema **dark** com detalhes em roxo e ciano neon  
+- Pequenas animações de entrada (fade/slide)  
+- Botões com links externos (GitHub, sites e currículo)
 
-2. Start the app
+## 🛠 Tecnologias
 
-   ```bash
-   npx expo start
-   ```
+- React Native
+- Expo
+- TypeScript
+- Expo Router
+- @expo/vector-icons
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🚀 Como rodar o projeto
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+npx expo start
